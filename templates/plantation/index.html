@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Plantation</title>
+</head>
+<body>
+ <h1>Plantation says...</h1>
+        Gimme yo' stuff <strong>{{ boldmessage }}</strong><br />
+        <a href="/plantation/about/">About</a><br />
+        <img src="{% static 'images/county_map.jpg' %}" alt="Picture of SC" /> <!-- New line -->
+</body>
+</html>
